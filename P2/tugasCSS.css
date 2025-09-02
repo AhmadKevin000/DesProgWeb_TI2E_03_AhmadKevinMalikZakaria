@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #E8FFD7, #93DA97); 
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container-satu {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+    background-color: #5E936C;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar-satu h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #E8FFD7;
+    padding-bottom: 8px;
+}
+
+.sidebar-satu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-satu ul li {
+    margin: 8px 0;
+}
+
+.sidebar-satu ul li a {
+    text-decoration: none;
+    color: #E8FFD7;
+    transition: color 0.3s;
+}
+
+.sidebar-satu ul li a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.kolom-utama {
+    flex: 2;
+    order: 2;
+    padding: 20px;
+}
+
+.kolom-utama h2 {
+    color: #3E5F44;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid #93DA97;
+    padding-bottom: 10px;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+    background-color: #3E5F44;
+    color: #E8FFD7;
+    padding: 20px;
+}
+
+.sidebar-dua h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #93DA97;
+    padding-bottom: 8px;
+}
