@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Nilai Huruf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Konversi Nilai Angka ke Huruf</h1>
+        <form id="formNilai" action="proses.php" method="POST" onsubmit="return validasiInput()">
+            <label for="nilai">Masukkan Nilai (0–100):</label>
+            <input type="number" id="nilai" name="nilai" required>
+            <button type="submit">Kirim</button>
+        </form>
+        <p id="peringatan"></p>
+    </div>
+</body>
+</html>
